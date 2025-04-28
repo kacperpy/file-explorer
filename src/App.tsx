@@ -1,10 +1,11 @@
 import "./App.css";
-import { FileExplorer } from "./components/FileExplorer";
+import { Folder } from "./components/Folder";
+import fileData from "./data/folderData";
 
 function App() {
   return (
     <>
-      <FileExplorer />
+      <Folder rootFile={fileData} />
     </>
   );
 }
